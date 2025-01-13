@@ -27,8 +27,8 @@ Many modifications to the core have been made to suit the new library wrapper, a
 
 Install via composer
 
-```
-composer require phroute/phroute
+```bash
+composer require lion/phroute
 ```
 
 ## Usage
