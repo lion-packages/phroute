@@ -1,5 +1,5 @@
 {
-  "name": "phroute/phroute",
+  "name": "lion/phroute",
   "description": "Fast, fully featured restful request router for PHP",
   "keywords": [
     "routing",
@@ -18,7 +18,7 @@
     }
   },
   "require": {
-    "php": ">=5.4.0"
+    "php": ">=8.4"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.0",
