@@ -54,7 +54,7 @@ class RouteCollector implements RouteDataProviderInterface {
     /**
      * @param RouteParser $routeParser
      */
-    public function __construct(RouteParser $routeParser = null) {
+    public function __construct(?RouteParser $routeParser = null) {
         $this->routeParser = $routeParser ?: new RouteParser();
     }
 
@@ -71,7 +71,7 @@ class RouteCollector implements RouteDataProviderInterface {
      * @param array $args
      * @return string
      */
-    public function route($name, array $args = null)
+    public function route($name, ?array $args = null)
     {
         $url = [];
 
